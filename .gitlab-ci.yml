@@ -22,3 +22,5 @@
 
 include:
   - local: '/.gitlab-ci.d/qemu-project.yml'
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive # 拉取 Submodule 内容
